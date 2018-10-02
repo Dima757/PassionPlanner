@@ -21,8 +21,8 @@ $.ajax({
         var url = response.url;
         var explanation = response.explanation;
 
-        dateDisplay.text("NASA image of the day for "+date);
-        dateDisplay.attr("class","text-center");
+        //dateDisplay.text(date);
+        //dateDisplay.attr("class","text-center");
         titleDisplay.text(title);
         titleDisplay.attr("class","text-center");
         imgDisplay.attr("src",url);
@@ -30,7 +30,7 @@ $.ajax({
         imgDisplay.attr("alt",explanation);
 
         //append image of day content to widget in index.html
-       $("#nasa-widget").append(dateDisplay,imgDisplay,titleDisplay);
+       $("#nasa-widget").append(/*dateDisplay,*/imgDisplay,titleDisplay);
 
 });
 //$("#nasa-widget")
