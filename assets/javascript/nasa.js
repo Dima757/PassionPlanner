@@ -23,7 +23,7 @@ $.ajax({
 
         //dateDisplay.text(date);
         //dateDisplay.attr("class","text-center");
-        titleDisplay.text(title);
+        titleDisplay.text("Photo title: "+title);
         titleDisplay.attr("class","text-center");
         imgDisplay.attr("src",url);
         imgDisplay.attr("class","img-fluid m-1");
