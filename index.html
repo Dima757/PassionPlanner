@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href = "assets/css/style.css">
-
-    <title>Hello, world!</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.css" />
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <title>PassionPlanner</title>
   </head>
   <body>
     <div class="container">
@@ -52,14 +53,14 @@
         </div> 
         <div class="row">
             <div class="col-sm-12 col-md-6 border">
-                <div class="display-4 mb-1">NASA Daily Image</div>
+                <div class="display-4 mb-1 nasa-title"><i class="fas fa-space-shuttle"></i> NASA Daily Image</div>
                 <div id="nasa-widget"></div>
             </div>
             <div class="col-sm-12 col-md-6 border">
+                <div class="display-4 text-center sticky-title"><i class="fas fa-map-pin fa-sm"></i> Reminder Board</div>
                 <div id="sticky-widget">
-                    <div class="display-4">Sticky Reminders</div>
                     <form id="sticky-form">
-                        <input type="text" id="sticky-input" class="mt-2">
+                        <input type="text" id="sticky-input" class="mt-4" placeholder=" enter a reminder">
                         <div>
                             <button type="submit" id="sticky-button" class="mt-2">Add reminder</button>
                         </div>
@@ -72,9 +73,11 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
     <script src="assets/javascript/script.js"></script>
     <script src="assets/javascript/nasa.js"></script>
     <script src="assets/javascript/stickynote.js"></script>
