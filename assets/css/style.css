@@ -1,7 +1,32 @@
 .sticky-note {
     background-color:yellow;
-    border: 1px black solid;
-    border-radius: 10px;
-    padding: 10px;
-    font-size:20px;
+    width: auto;
+    min-height:250px;
+    max-height:250px;
+    padding:35px 10px 0px 10px;
+    font-size:22px;
+    text-align:center;
+    border-bottom-right-radius: 60px 5px;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+    font-family: 'Merienda One', Helvetica, sans-serif;
+}
+#sticky-widget {
+    background-image: url("../images/stickybg.jpg");
+    padding: 10px 25px 15px 25px;
+    margin:5px;
+    border: 7px solid lightgray;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.sticky-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:lightblue;
+    border: 2px black solid;
+}
+
+.nasa-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:lightgray;
+    border: 2px black solid;
 }
