@@ -23,10 +23,21 @@
     background-color:lightblue;
     border: 2px black solid;
 }
-
 .nasa-title {
     margin-top:10px;
     padding:5px;
     background-color:lightgray;
     border: 2px black solid;
+}
+.todo-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:lightcyan;
+    border: 2px black solid;
+}
+#todo-widget {
+    border: 25px solid #654321;
+    border-radius: 15px;
+    padding:15px;
+    margin-bottom:10px;
 }
