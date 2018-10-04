@@ -29,8 +29,15 @@ $.ajax({
         imgDisplay.attr("class","img-fluid m-1");
         imgDisplay.attr("alt",explanation);
 
+
+
         //append image of day content to widget in index.html
        $("#nasa-widget").append(/*dateDisplay,*/imgDisplay,titleDisplay);
 
 });
 //$("#nasa-widget")
+
+//send user to NASA image of the day website on click
+$("#nasa-widget").on("click",function(e) {
+    window.open("https://apod.nasa.gov/apod/astropix.html",'_blank');
+});
