@@ -46,7 +46,7 @@
             </div>  
             <div class="col-sm-12 col-md-6 border">
                 <div class="display-4 mb-1 stock-title title"> Stock Information</div>
-                <div id="stock-widget" class="stock-background">"stock placeholer"</div>
+                <div id="stock-widget" class="stock-background"></div>
             </div>
         </div>
         <div class="row">
@@ -84,6 +84,22 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12 border">
+                <div class="display-4 mb-1 google-title text-center"><i class="fab fa-google"></i> Google Calendar</div>
+                <div id="google-widget">
+                    <div id="google-calendar"></div>
+                    <form id="google-form">
+                        <div>Please enter your google calendar link and make sure it is publicly viewable.</div>
+                        <input type="text" id="google-input">
+                        <button class="btn btn-danger" id="google-add" type="submit">Add calendar</button>
+                    </form>
+                    <form id="google-remove" class="d-none">
+                        <button class="btn btn-danger" type="submit">Remove calendar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
@@ -101,5 +117,6 @@
     <script src="assets/javascript/stock.js"></script>
     <script src="assets/javascript/todo.js"></script>
     <script src="./assets/javascript/memejava.js"></script>
+    <script src="./assets/javascript/google.js"></script>
   </body>
 </html>
