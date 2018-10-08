@@ -39,6 +39,8 @@ $("#google-widget").on("click","#google-form #google-add", function(e){
     //we are going to be fancy and strip default width/height and make responsive!
     $('#google-calendar').removeAttr('width').removeAttr("height");
     $('#google-calendar').addClass("responsive-iframe");
+    calendar = $("#google-calendar").html();
+    console.log("new calendar",calendar);
 
     googlearea.push({
     calendar: calendar,
@@ -57,5 +59,7 @@ googlearea.on("child_added", function(googlecal) {
 
     console.log("calendar detected",googlecal.val().calendar);
     $("#google-calendar").html(googlecal.val().calendar);   
+    $('#google-calendar').removeAttr('width').removeAttr("height");
+    $('#google-calendar').addClass("responsive-iframe");
 
 });
