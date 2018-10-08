@@ -16,7 +16,7 @@ $.ajax({
         console.log(response);  //log out endpoint JSON object
 
         //get data
-        var date = response.date;
+        //var date = response.date;
         var title = response.title;
         var url = response.url;
         var explanation = response.explanation;
