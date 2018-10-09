@@ -17,16 +17,37 @@
     border: 7px solid lightgray;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
-.sticky-title {
+
+/* common title styles */
+.title {
     margin-top:10px;
     padding:5px;
-    background-color:lightblue;
     border: 2px black solid;
 }
+
+.sticky-title {
+    background-color:lightblue;
+}
 .nasa-title {
-    margin-top:10px;
-    padding:5px;
     background-color:lightgray;
+}
+
+.stock-title {    
+    background-color:white;
+}
+
+.stock-background {
+    background: url(../images/Stock\ Picture.jpg);
+    color: #fff;
+    padding: 5px;
+}
+.table-row {
+    display: flex;
+    margin-left: 25px; 
+
+}
+.table-item {
+    margin-left: 50px;
     border: 2px black solid;
 }
 .todo-title {
@@ -51,3 +72,22 @@
     background-color:rgb(0, 255, 76);
     border: 2px black solid;
 }
+.google-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:red;
+    border: 2px black solid;
+}
+.responsive-iframe {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+.responsive-iframe iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+ }

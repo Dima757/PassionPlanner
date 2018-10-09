@@ -12,6 +12,7 @@ firebase.initializeApp(config);
 
 var database = firebase.database(); //reference to database
 
+
 var username = database.ref("/name");
 
 //store user name
@@ -37,3 +38,4 @@ username.on("child_added", function(name) {
     $(".name-disp").text("Welcome, "+ name.val().name);
 
 });
+
