@@ -21,9 +21,9 @@ queryURL.forEach(function (query) {
     var closePriceDiv = document.createElement('p');
     closePriceDiv.innerText = closePrice;
     var newRow = document.createElement("div");
-    nameDiv.className = 'table-item col';
-    symbolDiv.className = 'table-item col';
-    closePriceDiv.className = 'table-item col';
+    nameDiv.className = 'table-item col-5';
+    symbolDiv.className = 'table-item col-2';
+    closePriceDiv.className = 'table-item col-5';
     newRow.className = 'table-row';
     newRow.append(nameDiv);
     newRow.append(symbolDiv);
