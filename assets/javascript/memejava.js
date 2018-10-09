@@ -16,11 +16,16 @@ $.ajax({
 
     // After the call is complete
     .then(function(response) {
+        var a = Math.floor(Math.random() * response.data.memes.length);
         console.log(response);  //log out endpoint JSON object
 
         //get data
-        var title = response.data.memes[0].name;
-        var url = response.data.memes[0].url;
+        var title = response.data.memes[a].name;
+        var url = response.data.memes[a].url;
+
+        
+
+        
         
         var explanation = response.explanation;
         console.log(title+"Dmitriy");
