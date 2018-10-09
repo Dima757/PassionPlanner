@@ -34,19 +34,21 @@
 }
 
 .stock-title {    
-    background-color:white;
+    background-color: green;
+    color: #fff
 }
 
 .stock-background {
-    background: url(../images/Stock\ Picture.jpg);
-    color: #fff;
+    /* background: url(../images/Stock\ Picture.jpg); */
+    background: url(../images/stock-market.jpg) no-repeat center;
+    background-size: cover;
+    color:#fff;
+    font-size: 20px;
     padding: 5px;
 }
 .table-row {
     display: flex;
-    margin-left: 25px; 
-
 }
 .table-item {
-    margin-left: 50px;
+    margin-left: 25px;
 }
