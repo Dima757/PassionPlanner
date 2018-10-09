@@ -50,7 +50,7 @@
 }
 .table-item {
     margin-left: 25px;
-    border: 2px black solid;
+    /* border: 2px black solid; */
 }
 .todo-title {
     margin-top:10px;
