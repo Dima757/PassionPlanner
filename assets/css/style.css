@@ -112,3 +112,12 @@
      margin-bottom:10px;
      padding-bottom:10px;
  }
+ .jumbotron-image {
+     background-image: url("../images/jumbo-image.jpg");
+     background-size: cover;
+ }
+ #jumbo-info {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px 5px 20px 5px;
+    border-radius:10px;
+ }
