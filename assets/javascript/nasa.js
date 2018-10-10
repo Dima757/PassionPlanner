@@ -1,5 +1,5 @@
 //URL for query to NASA image of the day widget
-var queryURL = "https://api.nasa.gov/planetary/apod?api_key=4xivofU1aqBCnymU6yg5NKp9bgwSMGpVVmM0GRtH"
+var queryURL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";//"https://api.nasa.gov/planetary/apod?api_key=4xivofU1aqBCnymU6yg5NKp9bgwSMGpVVmM0GRtH"
 
 //vars to capture JSON returns
 var dateDisplay = $("<div>");
