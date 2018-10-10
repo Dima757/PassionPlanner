@@ -23,18 +23,22 @@
     margin-top:10px;
     padding:5px;
     border: 2px black solid;
+    border-radius:10px;
 }
 
 .sticky-title {
     background-color:lightblue;
+    border-radius:10px;
 }
 .nasa-title {
     background-color:lightgray;
+    border-radius:10px;
 }
 
 .stock-title {    
     background-color: green;
-    color: #fff
+    color: #fff;
+    border-radius:10px;
 }
 
 .stock-background {
@@ -57,6 +61,7 @@
     padding:5px;
     background-color:lightcyan;
     border: 2px black solid;
+    border-radius:10px;
 }
 #todo-widget {
     border: 25px solid #654321;
@@ -73,12 +78,14 @@
     padding:5px;
     background-color:rgb(0, 255, 76);
     border: 2px black solid;
+    border-radius:10px;
 }
 .google-title {
     margin-top:10px;
     padding:5px;
     background-color:red;
     border: 2px black solid;
+    border-radius:10px;
 }
 .responsive-iframe {
     overflow: hidden;
@@ -92,4 +99,16 @@
     position: absolute;
     top: 0;
     width: 100%;
+ }
+ .inspirational-title {
+     background-color:lightgoldenrodyellow;
+ }
+ #inspirational-quote {
+     font-size:26px;
+ }
+ .widget-border {
+     border:0.5px lightgray solid;
+     border-radius:10px;
+     margin-bottom:10px;
+     padding-bottom:10px;
  }

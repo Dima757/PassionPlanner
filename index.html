@@ -20,13 +20,13 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron  mb-2">
             <h1 class="display-2 text-center"><i class="fas fa-calendar-alt"></i> Passion Planner</h1>
             <p class="lead text-center">Take your passion to the next level.</p>
             <hr class="my-4">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <p class="lead display-2 name-disp">Welcome,</p>
+                    <p class="lead display-3 name-disp">Welcome,</p>
                     <form id="user-name">
                         <input type="text" id="name-input" placeholder="Enter your name">
                         <button id="name-button">Save name</button>
@@ -34,17 +34,19 @@
                     <p class="lead text-center display-5"></p>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <div id="time-widget" class="display-3 text-center">Time placeholder</div>
+                        <p class="lead display-3"><i class="fas fa-clock"></i> Current Time:</p>
+                    <div id="time-widget" class="display-3 text-center"></div>
                 </div>
             </div>
         </div>
-        <div class="row border">
-            <div class="col-12 text-center">
-                <div id="inspirational-quote display-4">"Placeholder quote" -Joe Schmo</div>
+        <div class="row">
+            <div class="col-12 text-center widget-border">
+                    <div class="display-4 mb-1 inspirational-title title mb-1 mt-1"><i class="fas fa-lightbulb"></i> Daily Inspirational Quote</div>
+                <div id="inspirational-quote" class="lead">It gets easier… Every day it gets a little easier… But you gotta do it every day — that’s the hard part. But it does get easier. -Jogging Baboon (Bojack Horseman)</div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-6 border">
+            <div class="col-sm-12 col-md-6 widget-border">
                 <div id="weather-widget">
                     <div class="card text-white bg-primary mb-3 mt-3">
                         <div class="card-header">
@@ -67,18 +69,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 border">
+            <div class="col-sm-12 col-md-6 widget-border">
                 <div class="display-4 mb-1 stock-title title text-center"><i class="fas fa-business-time"></i> Stock Information</div>
                 <div id="stock-widget" class="stock-background"></div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-6 border">
+            <div class="col-sm-12 col-md-6 widget-border">
                 <div class="display-4 text-center mb-1 meme-title"><i class="fas fa-motorcycle"></i> Daily
                     MEME!</div>
                 <div id="meme-widget"></div>
             </div>
-            <div class="col-sm-12 col-md-6 border">
+            <div class="col-sm-12 col-md-6 widget-border">
                 <div class="display-4 mb-1 todo-title text-center"><i class="fas fa-clipboard-list"></i> Todo
                     List</div>
                 <div id="todo-widget">
@@ -92,12 +94,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 border">
+        <div class="row ">
+            <div class="col-sm-12 col-md-6 widget-border">
                 <div class="display-4 mb-1 nasa-title title"><i class="fas fa-space-shuttle"></i> NASA Daily Image</div>
                 <div id="nasa-widget"></div>
             </div>
-            <div class="col-sm-12 col-md-6 border">
+            <div class="col-sm-12 col-md-6 widget-border">
                 <div class="display-4 text-center sticky-title title"><i class="fas fa-map-pin fa-sm"></i> Reminder Board</div>
                 <div id="sticky-widget">
                     <form id="sticky-form">
@@ -110,7 +112,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 border">
+            <div class="col-12 widget-border">
                 <div class="display-4 mb-1 google-title text-center"><i class="fab fa-google"></i> Google Calendar</div>
                 <div id="google-widget">
                     <div id="google-calendar"></div>
